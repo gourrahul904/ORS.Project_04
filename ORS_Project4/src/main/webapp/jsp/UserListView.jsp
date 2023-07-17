@@ -77,7 +77,7 @@
 			<table width="100%" align="center">
 				<tr>
 					<th></th>
-				 <td align="center"><label>FirstName</font> :
+				 <td align="center"><label>FirstName :
 					</label> <input type="text" name="firstName" placeholder="Enter First Name"
 						value="<%=ServletUtility.getParameter("firstName", request)%>"> &nbsp;
 						
@@ -85,11 +85,11 @@
 
 						<label></font> </label> <%-- <%=HTMLUtility.getList("roleid", String.valueOf(bean.getRoleId()), rlist) %> --%>
 
-						<label>LoginId</font> :
+						<label>LoginId :
 					</label> <input type="text" name="loginid" placeholder="Enter Login-Id"
 						value="<%=ServletUtility.getParameter("login", request)%>">
 						
-				<%-- 	 			<label>Last Name:</font> :
+				<%-- 	 			<label>Last Name: :
 					</label> <input type="text" name="lastName" placeholder="Enter-Your-lastName"
 						value="<%=ServletUtility.getParameter("lastName", request)%>">
 				 --%> 
@@ -111,12 +111,12 @@
 						
  --%>						
 						
-				<%-- 	 	<label>Date:</font> :
+				<%-- 	 	<label>Date: :
 					</label> <input type="text" name="dob" id="udate" placeholder="enter your Date"
 						value="<%=ServletUtility.getParameter("dob", request)%>">			
 				 --%>	 	
 						
-						&emsp; <label>Role</font> :
+						&emsp; <label>Role :
 					</label> <%=HTMLUtility.getList("roleid", String.valueOf(bean.getRoleId()), rlist) %>
 						&nbsp;  
   &nbsp; <input type="submit" name="operation"	
